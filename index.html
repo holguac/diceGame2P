@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="favicon.ico">
+		<title>DICE GAME</title>
+	</head>
+
+	<body id="game">
+		<div class="header">
+			<h1>DICE GAME</h1>
+			<p>REACH A SCORE OF 20 TO WIN</p>
+			<p>ROLL 1, YOU LOSE</p>
+		</div>
+
+		<div class="areaAll">
+			<div id="areaPlayer1">
+				<p id="namePlayer1">PLAYER ONE</p>
+				<p class="score-container-1">
+					Score: <span id="scorePlayer1">-</span>
+				</p>
+
+				<div class="areaDice">
+					<div id="rollText1">ROLL</div>
+					<div class="image-container-1">
+						<img id="imagePlayer1" />
+					</div>
+				</div>
+
+				<div class="buttons">
+					<button id="rollPlayer1">ROLL</button>
+					<button id="passPlayer1">PASS</button>
+					<button id="playAgain1">GO AGAIN</button>
+				</div>
+			</div>
+
+			<div id="areaPlayer2">
+				<p id="namePlayer2">PLAYER TWO</p>
+				<p class="score-container-2">
+					Score: <span id="scorePlayer2">-</span>
+				</p>
+
+				<div class="areaDice">
+					<div id="rollText2">ROLL</div>
+					<div class="image-container-2">
+						<img id="imagePlayer2" />
+					</div>
+				</div>
+
+				<div class="buttons">
+					<button id="rollPlayer2">ROLL</button>
+					<button id="passPlayer2">PASS</button>
+					<button id="playAgain2">GO AGAIN</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
