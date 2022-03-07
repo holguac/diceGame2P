@@ -12,15 +12,18 @@
 	<body id="game">
 		<div class="header">
 			<h1>DICE GAME</h1>
-			<p>REACH A SCORE OF 20 TO WIN</p>
-			<p>ROLL 1, YOU LOSE</p>
+		</div>
+
+		<div>
+			<h2>REACH A SCORE OF 20 TO WIN<h2>
+			<h2>ROLL 1, YOU LOSE</h2>
 		</div>
 
 		<div class="areaAll">
 			<div id="areaPlayer1">
 				<p id="namePlayer1">PLAYER ONE</p>
 				<p class="score-container-1">
-					Score: <span id="scorePlayer1">-</span>
+					<span id="scorePlayer1"></span>
 				</p>
 
 				<div class="areaDice">
@@ -33,14 +36,17 @@
 				<div class="buttons">
 					<button id="rollPlayer1">ROLL</button>
 					<button id="passPlayer1">PASS</button>
-					<button id="playAgain1">GO AGAIN</button>
 				</div>
+			</div>
+
+			<div id="playagain">
+				<button id="playAgain">GO AGAIN</button>
 			</div>
 
 			<div id="areaPlayer2">
 				<p id="namePlayer2">PLAYER TWO</p>
 				<p class="score-container-2">
-					Score: <span id="scorePlayer2">-</span>
+					<span id="scorePlayer2"></span>
 				</p>
 
 				<div class="areaDice">
@@ -53,7 +59,6 @@
 				<div class="buttons">
 					<button id="rollPlayer2">ROLL</button>
 					<button id="passPlayer2">PASS</button>
-					<button id="playAgain2">GO AGAIN</button>
 				</div>
 			</div>
 		</div>
